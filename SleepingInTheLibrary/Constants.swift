@@ -2,7 +2,7 @@
 //  Constants.swift
 //  SleepingInTheLibrary
 //
-//  Created by Jarrod Parkes on 11/5/15.
+//  Created by Deborah Padilla on 01/31/17.
 //  Copyright © 2015 Udacity. All rights reserved.
 //
 
@@ -27,7 +27,7 @@ struct Constants {
     
     // MARK: Flickr Parameter Values
     struct FlickrParameterValues {
-        static let APIKey = "YOUR API KEY HERE"
+        static let APIKey = "ac12b3ae4978d079fa156df9d287a028"
         static let ResponseFormat = "json"
         static let DisableJSONCallback = "1" /* 1 means "yes" */
         static let GalleryPhotosMethod = "flickr.galleries.getPhotos"

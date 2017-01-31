@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SleepingInTheLibrary
 //
-//  Created by Jarrod Parkes on 11/3/15.
+//  Created by Deborah Padilla on 01/31/17.
 //  Copyright © 2015 Udacity. All rights reserved.
 //
 
@@ -42,6 +42,10 @@ class ViewController: UIViewController {
     
     private func getImageFromFlickr() {
         
-        // TODO: Write the network code here!
+        let url = NSURL(string: "\(Constants.Flickr.APIBaseURL)?\(Constants.FlickrParameterKeys.Method)=\(Constants.FlickrParameterValues.GalleryPhotosMethod)&\(Constants.FlickrParameterKeys.APIKey)=\(Constants.FlickrParameterValues.APIKey)&\(Constants.FlickrParameterKeys.GalleryID)=\(Constants.FlickrParameterValues.GalleryID)&\(Constants.FlickrParameterKeys.Extras)=\(Constants.FlickrParameterValues.MediumURL)&\(Constants.FlickrParameterKeys.Format)=\(Constants.FlickrParameterValues.ResponseFormat)&\(Constants.FlickrParameterKeys.NoJSONCallback)=\(Constants.FlickrParameterValues.DisableJSONCallback)")!
+        
+        print(url)
+        
+        
     }
 }

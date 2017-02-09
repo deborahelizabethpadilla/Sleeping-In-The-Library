@@ -13,6 +13,7 @@ This application was to reflect on networking methods.
 **Technologies Used In Application:**
 * Image View
 * JSON data.
+* Swift
 * Flickr API.
 
 **Closing:**

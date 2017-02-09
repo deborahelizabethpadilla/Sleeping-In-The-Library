@@ -1,5 +1,7 @@
 # Sleeping-In-The-Library
 
+**Summary:**
+
 This application was to reflect on networking methods.
 
 **The application offers the following features:**

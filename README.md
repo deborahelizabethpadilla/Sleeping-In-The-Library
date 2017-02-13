@@ -1,4 +1,4 @@
-# Sleeping-In-The-Library
+# Sleeping In The Library
 
 **Summary:**
 
